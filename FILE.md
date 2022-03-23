@@ -38,4 +38,17 @@ git add FILE.md
 git commit -m "9. commit"
 
 git checkout master
+git add FILE.md
+git commit -m "10. commit"
 
+git checkout bug-fix
+git add FILE.md
+git commit -m "11. commit"
+git merge bug-fix-experimental  //CONFLICT
+git status
+vim FILE.md
+git add FILE.md
+git commit
+
+git add FILE.md
+git commit -m "12. commit"
