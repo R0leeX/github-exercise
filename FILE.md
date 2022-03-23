@@ -15,4 +15,5 @@ git checkout bug-fix
 git add FILE.md
 git commit -m "3. commit"
 
-
+git add FILE.md
+git commit -m "4. commit"
