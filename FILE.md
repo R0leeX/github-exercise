@@ -17,3 +17,6 @@ git commit -m "3. commit"
 
 git add FILE.md
 git commit -m "4. commit"
+
+git add FILE.md
+git commit -m "5. commit"
