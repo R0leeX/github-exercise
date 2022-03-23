@@ -10,9 +10,20 @@ git commit -m "1. commit"
 git add FILE.md
 git commit -m "2. commit"
 
+git log -3
 git branch bug-fix 579e70e42b850a231a5818e4442b86362fad8e52
 git checkout bug-fix
 git add FILE.md
 git commit -m "3. commit"
 
+git add FILE.md
+git commit -m "4. commit"
 
+git add FILE.md
+git commit -m "5. commit"
+
+git add FILE.md
+git commit -m "6. commit"
+
+git branch bug-fix-experimental 5ffe9633d01e397ca73f6c86991553334fd459a7
+git checkout bug-fix-experimental
