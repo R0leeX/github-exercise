@@ -59,3 +59,17 @@ git status
 vim FILE.md
 git add FILE.md
 git commit
+
+git add FILE.md
+git commit -m "13. commit"
+
+git add .
+git commit -m "14. commit"
+
+git remote add origin <GitHub URL> 
+git push -u origin master
+git checkout bug-fix
+git push -u origin bug-fix
+git checkout bug-fix-experimental
+git push -u origin bug-fix-experimental
+git checkout master
